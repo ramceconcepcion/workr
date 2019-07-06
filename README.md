@@ -3,6 +3,7 @@ A web worker library aimed at making the Web Workers API easier to work with.
 
 
 Basic Workr Template:
+
     const myworker = Workr.basic({
         url: 'my-worker.js',
         data: null,
@@ -20,6 +21,7 @@ Basic Workr Template:
 --------------------------
 
 Prepared Workr Template:
+
     const myworker = Workr.prepared({
         url: 'my-worker.js',
         success: function () { },
@@ -46,6 +48,7 @@ Prepared Workr Template:
 -------------------------
 
 Embedded Workr Template:
+
     const myworkers = Workr.embedded([
         {
             method: myFunction,
@@ -61,6 +64,7 @@ Embedded Workr Template:
 -----------------------
 
 Prepared Embedded Workr Template:
+
     const myworkers = Workr.embeddedprepd([
         {
             method: myFunction,
@@ -73,5 +77,5 @@ Prepared Embedded Workr Template:
     ]);
 
     myworkers[0].run(params);
-    
+
 -----------------------
