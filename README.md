@@ -1,6 +1,9 @@
 # workr
 A web worker library aimed at making the Web Workers API easier to work with.
 
+Disclaimer: This mini project is made with old code and is currently unmaintained.
+
+To use it nonetheless:
 
 Basic Workr Template:
 
